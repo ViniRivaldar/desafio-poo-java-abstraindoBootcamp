@@ -6,7 +6,7 @@ public class Mentoria {
 
     private String titulo; 
     private String descricao;
-    private LocalDate localDate;
+    private LocalDate data;
     
     public String getTitulo() {
         return titulo;
@@ -21,14 +21,14 @@ public class Mentoria {
         this.descricao = descricao;
     }
     public LocalDate getLocalDate() {
-        return localDate;
+        return data;
     }
-    public void setLocalDate(LocalDate localDate) {
-        this.localDate = localDate;
+    public void setLocalDate(LocalDate data) {
+        this.data = data;
     }
 
     @Override
     public String toString() {
-        return "Mentoria [titulo=" + titulo + ", descricao=" + descricao + ", localDate=" + localDate + "]";
+        return "Mentoria [titulo=" + titulo + ", descricao=" + descricao + ", localDate=" + data + "]";
     }
 }
